@@ -1,0 +1,98 @@
+/* CSS Variables */
+:root {
+  --default-text-color: #fff;  /* Default text color */
+  --page-background-color: #2c3333;  /* Page background color */
+  --card-text-color: rgb(232, 233, 243);  /* Card text color */
+  --info-color: #7dabef;  /* Information color */
+}
+
+body {
+  /* background-color: var(--page-background-color); */
+  background-color: #2234ae;  /* Body background color */
+  background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);  /* Background gradient */
+  color: var(--page-background-color);  /* Body text color */
+}
+
+/* NAVBAR */
+.fa-star {
+  color: var(--default-text-color);  /* Star icon color */
+}
+
+.site-name {
+  color: var(--default-text-color);  /* Site name color */
+}
+#btn {
+  float: right !important;  /* Button float and alignment */
+  justify-items: end;
+}
+
+#rating,
+#title {
+  color: var(--default-text-color);  /* Rating and title color */
+}
+
+main {
+  height: 100vh;  /* Main section height */
+}
+
+/* Movie card*/
+.card {
+  border: 0;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(0, 0, 0) 0%,
+    rgb(64, 64, 64) 90.2%
+  );
+  box-shadow: 0px 16px 24px 2px hsla(0, 0%, 0%, 0.14),
+    0px 6px 30px 5px hsla(0, 0%, 0%, 0.12),
+    0px 8px 10px -5px hsla(0, 0%, 0%, 0.2);  /* Movie card styling */
+}
+
+.card-text {
+  text-align: justify;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: var(--card-text-color);  /* Card text styling */
+}
+
+.info-type {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--default-text-color);  /* Information type styling */
+}
+
+.information {
+  font-weight: 500;
+  font-size: 0.9em;
+  color: var(--info-color);  /* Information color */
+}
+
+/* Responsiveness */
+@media screen and (max-width: 767px) {
+  #poster {
+    margin-top: 1rem;
+    border-radius: 5px !important;  /* Poster styling for smaller screens */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .site-name {
+    margin-top: -1rem;  /* Site name margin adjustment for smaller screens */
+  }
+  #title {
+    font-size: x-large;  /* Title font size adjustment for smaller screens */
+  }
+
+  h6 {
+    font-size: medium;  /* Font size adjustment for h6 elements */
+  }
+
+  h5 {
+    font-size: medium;  /* Font size adjustment for h5 elements */
+  }
+
+  #poster {
+    margin-top: 0px;
+    width: 100%;  /* Poster width adjustment for smaller screens */
+  }
+}
