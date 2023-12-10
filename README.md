@@ -8,8 +8,7 @@ Welcome to the IMDB Clone project! This web application is designed to showcase 
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Technologies](#technologies)
-- [Contributing](#contributing)
-- [License](#license)
+- [Contributing](#contribution)
 
 ## Features
 
@@ -56,11 +55,6 @@ To get started with this project, follow these steps:
 - **OMDb API:** Movie data retrieval.
 - **The Movie Database (TMDb) API:** Movie data retrieval.
 
-## Contributing
+## Contribution
 
-Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make changes and commit them.
-4. Push to your fork and submit a pull request.
+Contributions are welcome! If you find a bug or have an idea for an improvement, feel free to open an issue or submit a pull request.
